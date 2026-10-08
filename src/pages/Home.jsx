@@ -33,13 +33,13 @@ export default function Home() {
                 <div className="absolute -inset-0.5 bg-gradient-to-br from-primary-500 to-accent rounded-full blur opacity-60" />
                 <img
                   src="/images/profile.jpg"
-                  alt="Muhammad Usman"
+                  alt="Muhamad Usman"
                   className="relative w-16 h-16 rounded-full object-cover border-2 border-dark-bg"
                 />
               </div>
               <div>
                 <p className="text-sm text-gray-500">Hello, I'm</p>
-                <p className="text-lg font-semibold text-white">Muhammad Usman</p>
+                <p className="text-lg font-semibold text-white">Muhamad Usman</p>
               </div>
             </div>
 
@@ -57,7 +57,7 @@ export default function Home() {
             </h1>
 
             <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-xl">
-              I'm <span className="text-white font-medium">Muhammad Usman</span>,
+              I'm <span className="text-white font-medium">Muhamad Usman</span>,
               a freelance developer based in Jeddah. I build complete systems —
               from React frontends and Django APIs to Nginx-served deployments
               with SEO baked in.

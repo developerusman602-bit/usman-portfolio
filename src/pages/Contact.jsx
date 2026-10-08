@@ -107,7 +107,7 @@ export default function Contact() {
               <SocialLink
                 icon={<FiLinkedin size={16} />}
                 label="LinkedIn"
-                href="https://www.linkedin.com/in/muhammad-usman-60b315356/?isSelfProfile=true"
+                href="https://www.linkedin.com/in/muhamad-usman-60b315356/?isSelfProfile=true"
               />
               <SocialLink
                 icon={<FiExternalLink size={16} />}

@@ -73,7 +73,7 @@ export default function About() {
 
             <div className="space-y-5 text-gray-400 leading-relaxed">
               <p>
-                I'm <span className="text-white font-medium">Muhammad Usman</span>,
+                I'm <span className="text-white font-medium">Muhamad Usman</span>,
                 a freelance full-stack developer currently based in Jeddah,
                 Saudi Arabia. I specialize in building complete web applications
                 — from designing the frontend and engineering the backend, to
@@ -124,7 +124,7 @@ export default function About() {
               <div className="relative aspect-square rounded-2xl overflow-hidden border border-dark-border">
                 <img
                   src="/images/profile.jpg"
-                  alt="Muhammad Usman"
+                  alt="Muhamad Usman"
                   className="w-full h-full object-cover"
                 />
               </div>

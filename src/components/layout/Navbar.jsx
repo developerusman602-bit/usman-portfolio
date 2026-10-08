@@ -43,7 +43,7 @@ export default function Navbar() {
               M
             </span>
             <span className="font-semibold text-white tracking-tight hidden sm:block">
-              Muhammad<span className="text-accent">.</span>
+              Muhamad<span className="text-accent">.</span>
             </span>
           </Link>
 
@@ -80,7 +80,7 @@ export default function Navbar() {
               <FiGithub size={18} />
             </a>
             <a
-              href="https://www.linkedin.com/in/muhammad-usman-60b315356/?isSelfProfile=true"
+              href="https://www.linkedin.com/in/muhamad-usman-60b315356/?isSelfProfile=true"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"

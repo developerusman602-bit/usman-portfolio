@@ -17,7 +17,7 @@ export default function Footer() {
                 M
               </span>
               <span className="font-semibold text-white">
-                Muhammad<span className="text-accent">.</span>
+                Muhamad<span className="text-accent">.</span>
               </span>
             </Link>
             <p className="text-sm text-gray-500 leading-relaxed max-w-xs">
@@ -76,7 +76,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/muhammad-usman-60b315356/?isSelfProfile=true"
+                  href="https://www.linkedin.com/in/muhamad-usman-60b315356/?isSelfProfile=true"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:text-accent transition-colors inline-flex items-center gap-2"
@@ -90,7 +90,7 @@ export default function Footer() {
 
         {/* BOTTOM BAR */}
         <div className="pt-8 border-t border-dark-border flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-600">
-          <p>© {year} Muhammad Usman. All rights reserved.</p>
+          <p>© {year} Muhamad Usman. All rights reserved.</p>
           <p className="flex items-center gap-1">
             Built with{' '}
             <span className="text-accent">React</span> &{' '}
