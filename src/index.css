@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   BASE STYLES
+============================================ */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-dark-bg text-white font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-accent text-primary-900;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-dark-bg;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary-700 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary-600;
+  }
+}
+
+/* ============================================
+   REUSABLE COMPONENTS
+============================================ */
+@layer components {
+  .container-custom {
+    @apply max-w-6xl mx-auto px-6 lg:px-8;
+  }
+
+  .section-pad {
+    @apply py-20 md:py-28;
+  }
+
+  .card {
+    @apply bg-dark-card border border-dark-border rounded-xl p-6 hover:border-primary-500 transition-colors duration-300;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-primary-500 hover:bg-primary-600 text-white font-medium px-6 py-3 rounded-lg transition-colors duration-200;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border border-dark-border hover:border-primary-500 text-white font-medium px-6 py-3 rounded-lg transition-colors duration-200;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 bg-primary-900/50 border border-primary-500/30 rounded-full text-xs font-medium text-accent;
+  }
+
+  .section-label {
+    @apply text-xs font-semibold tracking-[0.2em] text-accent uppercase mb-3;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4;
+  }
+}
